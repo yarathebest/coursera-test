@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	padding: 10px;
+}
+
+/* .container {
+	width: 100%;
+	overflow: hidden;
+	margin: 20px auto;
+	padding: 20px 0px;
+	} */
+.container ul {
+	padding: 0px;
+	margin: 0px;
+}
+.container ul li {
+	list-style: none;
+	overflow: auto;
+	float: left;
+	width: 20%;
+	height: 200px;
+	background: gray;
+	margin: 40px 20px 0px 20px;
+	border: 2px solid black;
+
+}
+.container ul li .tag1  {
+	width : 40%;
+	height: 15%;
+	line-height: 25px;
+	padding: 0px 5px;
+	background-color: darkred;
+	color: black;
+	border: 1px solid black; 
+
+}
+.container ul li .tag2  {
+	width : 40%;
+	height: 15%;
+	line-height: 25px;
+	padding: 0px 5px;
+	background: darkmagenta;
+	color: black;
+	border: 1px solid black; 
+
+}
+.container ul li .tag3  {
+	width : 40%;
+	height: 15%;
+	line-height: 25px;
+	padding: 0px 5px;
+	background: cyan;
+	color: black;
+	border: 1px solid black; 
+	
+}
+p {
+  padding:0px 10px 0px 0px ;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: black;
+	
+}
+@media (min-width: 1200px) {
+.container ul li .hello, .container ul li .hi, .container ul li .bye {
+   /*  width: 40%;
+	margin: 20px;
+	 */
+ float: left;
+ }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	container ul li .title {
+    width: 100%;
+	margin: 20px;
+	clear: left;
+
+	
+ }
+}
